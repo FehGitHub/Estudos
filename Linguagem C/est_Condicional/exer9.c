@@ -3,8 +3,11 @@
    o seu programa pede dois valores numéricos e realiza a operação, mostrando o resultado. */
 
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese");
+
     float x, y, resultado;
     int op;
 
