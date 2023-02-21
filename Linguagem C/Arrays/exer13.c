@@ -24,7 +24,6 @@ int main() {
     while(i < 10) {
         while(j < i) {
             if(v[j] > v[i]) {
-
                 maior = v[j];
                 menor = v[i];
 
