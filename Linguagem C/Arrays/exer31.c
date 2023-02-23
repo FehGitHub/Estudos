@@ -16,8 +16,8 @@ int main() {
 
     tamanho = strlen(str);
 
-    // tamanho - 2 : calcula quantos caracteres existem na string, excluindo o caractere \n
-    // str[tamanho - 2 - i] : acessa o ultimo caractere da string, excluindo o caractere \n
+    // tamanho - 2 : calcula quantos caracteres existem na string, excluindo o caractere '\n'
+    // str[tamanho - 2 - i] : acessa o ultimo caractere da string - i, excluindo o caractere '\n'
 
     for(int i = 0; i < ((tamanho - 2) / 2.0); i++) {
         c_1 = str[i];
@@ -31,6 +31,3 @@ int main() {
 
     return 0;
 }
-
-
-
